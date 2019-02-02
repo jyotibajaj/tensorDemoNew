@@ -1,0 +1,116 @@
+
+{
+	"buildFiles" : [ "/Users/aashi/Downloads/android 2/jni/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/aashi/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/aashi/Downloads/android\\ 2/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"tensorflow_demo-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "tensorflow_demo",
+			"buildCommand" : "/Users/aashi/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/aashi/Downloads/android\\ 2/.externalNativeBuild/cmake/debug/x86_64 --target tensorflow_demo",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/imageutils_jni.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/object_tracking/frame_pair.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/object_tracking/image_neon.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/object_tracking/keypoint_detector.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/object_tracking/logging.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/object_tracking/object_detector.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/object_tracking/object_tracker.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/object_tracking/object_tracker_jni.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/object_tracking/optical_flow.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/object_tracking/time_log.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/object_tracking/tracked_object.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/object_tracking/utils_neon.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/rgb2yuv.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64  -Dtensorflow_demo_EXPORTS -I/Users -I\"/Users/aashi/Downloads/android 2/jni\"  --sysroot /Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/aashi/Downloads/android 2/jni/yuv2rgb.cc",
+					"workingDirectory" : "/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/aashi/Downloads/android 2/gradleBuild/intermediates/cmake/debug/obj/x86_64/libtensorflow_demo.so",
+			"toolchain" : "12351260863403344084"
+		}
+	},
+	"toolchains" : 
+	{
+		"12351260863403344084" : 
+		{
+			"cCompilerExecutable" : "/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/aashi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

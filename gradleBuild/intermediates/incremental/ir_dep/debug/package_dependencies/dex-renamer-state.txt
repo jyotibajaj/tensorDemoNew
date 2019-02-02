@@ -1,0 +1,4 @@
+#Sat Feb 02 09:30:18 PST 2019
+base.0=/Users/aashi/Downloads/android 2/gradleBuild/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

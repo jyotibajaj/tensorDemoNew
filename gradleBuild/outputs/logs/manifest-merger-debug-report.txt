@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:16:1-47:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f8ae210ee8319d0f44e748e3c0a0ae59/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aashi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/efe3305df71803d5253030c5c36d9127/AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-android:1.6.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.6.0.aar/628e0e150d0a51f29c1d1830b16d5932/AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/b69892c776c6f4e913561d0c298a5619/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/90f5060083c5d7940646b203aa12e043/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/687ecf013815383cfe31e254d43e7bff/AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:17:5-34
+	xmlns:android
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:16:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:19:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:21:5-60
+	android:name
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:21:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:22:5-70
+	android:name
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:22:19-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:25:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:26:22-77
+application
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:28:5-45:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f8ae210ee8319d0f44e748e3c0a0ae59/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f8ae210ee8319d0f44e748e3c0a0ae59/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aashi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/efe3305df71803d5253030c5c36d9127/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aashi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/efe3305df71803d5253030c5c36d9127/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-android:1.6.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.6.0.aar/628e0e150d0a51f29c1d1830b16d5932/AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.6.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.6.0.aar/628e0e150d0a51f29c1d1830b16d5932/AndroidManifest.xml:5:5-6:19
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/b69892c776c6f4e913561d0c298a5619/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/b69892c776c6f4e913561d0c298a5619/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/90f5060083c5d7940646b203aa12e043/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/90f5060083c5d7940646b203aa12e043/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/687ecf013815383cfe31e254d43e7bff/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/687ecf013815383cfe31e254d43e7bff/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:32:9-41
+	android:debuggable
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:30:9-34
+	android:icon
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:31:9-45
+	android:allowBackup
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:33:9-45
+activity#org.tensorflow.demo.Splash
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:34:9-40:20
+	android:name
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:34:19-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:38:27-74
+activity#org.tensorflow.demo.DetectorActivity
+ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:41:9-44:61
+	android:screenOrientation
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:43:13-60
+	android:name
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml:42:13-45
+uses-sdk
+INJECTED from /Users/aashi/Downloads/android 2/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/aashi/Downloads/android 2/AndroidManifest.xml
+INJECTED from /Users/aashi/Downloads/android 2/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f8ae210ee8319d0f44e748e3c0a0ae59/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f8ae210ee8319d0f44e748e3c0a0ae59/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aashi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/efe3305df71803d5253030c5c36d9127/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aashi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/efe3305df71803d5253030c5c36d9127/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/b69892c776c6f4e913561d0c298a5619/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/b69892c776c6f4e913561d0c298a5619/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/90f5060083c5d7940646b203aa12e043/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/90f5060083c5d7940646b203aa12e043/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/687ecf013815383cfe31e254d43e7bff/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/687ecf013815383cfe31e254d43e7bff/AndroidManifest.xml:20:5-43
+INJECTED from /Users/aashi/Downloads/android 2/AndroidManifest.xml
+INJECTED from /Users/aashi/Downloads/android 2/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/aashi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/f8ae210ee8319d0f44e748e3c0a0ae59/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/aashi/Downloads/android 2/AndroidManifest.xml
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml
+		INJECTED from /Users/aashi/Downloads/android 2/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/aashi/Downloads/android 2/AndroidManifest.xml
+		ADDED from /Users/aashi/Downloads/android 2/AndroidManifest.xml
+		INJECTED from /Users/aashi/Downloads/android 2/AndroidManifest.xml

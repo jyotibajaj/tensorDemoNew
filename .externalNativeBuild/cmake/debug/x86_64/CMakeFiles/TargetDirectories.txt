@@ -1,0 +1,3 @@
+/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/aashi/Downloads/android 2/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/tensorflow_demo.dir
