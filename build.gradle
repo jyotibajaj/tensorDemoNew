@@ -76,13 +76,13 @@ project.ext.TMP_DIR = project.buildDir.toString() + '/downloads'
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 26
 
     if (nativeBuildSystem == 'cmake') {
         defaultConfig {
             applicationId = 'org.tensorflow.demo'
             minSdkVersion 21
-            targetSdkVersion 23
+            targetSdkVersion 26
             ndk {
                 abiFilters "${cpuType}"
             }
@@ -140,7 +140,7 @@ android {
         }
     }
     defaultConfig {
-        targetSdkVersion 23
+        targetSdkVersion 26
         minSdkVersion 21
     }
 }
@@ -187,7 +187,7 @@ tasks.whenTaskAdded { task ->
 //apply from: "download-models.gradle"
 
 dependencies {
-    implementation 'com.android.support:appcompat-v7:23.4.0'
+    implementation 'com.android.support:appcompat-v7:26.+'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
@@ -195,7 +195,7 @@ dependencies {
 }
 configurations.all {
     resolutionStrategy {
-        force 'com.android.support:support-annotations:23.4.0'
+        force 'com.android.support:support-annotations:26.+'
     }
 }
 
