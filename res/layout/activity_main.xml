@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Camera -->
+    <com.otaliastudios.cameraview.CameraView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:keepScreenOn="true"
+        android:visibility="gone"
+        app:cameraAudio="on"
+        app:cameraCropOutput="false"
+        app:cameraFacing="back"
+        app:cameraFlash="off"
+        app:cameraGestureLongTap="none"
+        app:cameraGesturePinch="zoom"
+        app:cameraGestureScrollHorizontal="exposureCorrection"
+        app:cameraGestureScrollVertical="none"
+        app:cameraGestureTap="focusWithMarker"
+        app:cameraGrid="off"
+        app:cameraJpegQuality="100"
+        app:cameraPlaySounds="false"
+        app:cameraSessionType="picture" />
+
+    <!-- Controls -->
+    <LinearLayout
+        android:id="@+id/lamp_switch_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:padding="16dp">
+
+        <Switch
+            android:id="@+id/lamp_switch"
+            android:layout_width="188dp"
+            android:layout_height="109dp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/background_light"
+            android:padding="40dp"
+            android:switchMinWidth="120dp"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/discovery_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.philips.lighting.hue.demo.huequickstartapp.MainActivity">
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:text="Press the link button to authenticate." />
+
+        <TextView
+            android:id="@+id/bridge_ip_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:text=" Bridge IP:192.168.1.1:600026" />
+
+        <ImageView
+            android:id="@+id/pushlink_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            app:srcCompat="@drawable/pushlink_image" />
+
+        <ListView
+            android:id="@+id/bridge_discovery_result_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/randomize_lights_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Randomize lights"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bridge_discovery_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Re-run bridge discovery" />
+
+    </LinearLayout>
+</RelativeLayout>
